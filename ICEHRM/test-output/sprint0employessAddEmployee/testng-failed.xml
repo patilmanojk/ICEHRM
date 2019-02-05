@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sprint0employessAddEmployee]">
+  <test thread-count="5" name="exampletest1(failed)">
+    <classes>
+      <class name="sprint0.employessAddEmployee">
+        <methods>
+          <include name="testAddUserValid" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- sprint0.employessAddEmployee -->
+    </classes>
+  </test> <!-- exampletest1(failed) -->
+</suite> <!-- Failed suite [sprint0employessAddEmployee] -->

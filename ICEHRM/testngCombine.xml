@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG suite">
+	<!-- suite name="Suite Name" -->
+	<suite-files>
+		<suite-file path="./testngsuits/TestNGsprint0DeactivateEmployee.xml" />
+		<suite-file path="./testngsuits/TestNGsprint0EmployeeHomeFilter.xml" />
+		<suite-file path="./testngsuits/TestNHEmployeeLoginAs.xml" />
+		<suite-file path="./testngsuits/TestNGEmployeeSearch.xml" />
+		<suite-file path="./testngsuits/TestNGEmployeeSearchEdit.xml" />
+		<suite-file path="./testngsuits/TestNGemployeeTerminateEmployee.xml" />
+		<suite-file path="./testngsuits/TestNGEmployeeView.xml" />
+		<suite-file path="./testngsuits/TestNgemployessAddEmployee.xml" />
+		<suite-file path="./testngsuits/TestNGuserLogin.xml" />
+		
+		
+		
+	</suite-files>
+</suite>

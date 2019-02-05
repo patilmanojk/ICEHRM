@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="example suite 1">
+4     <listeners> 
+5         <listener class-name="listerners.TestListener"/> 
+6     </listeners> 
+
+	<test name="exampletest1" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.UserLogin" />
+		</classes>
+	</test>
+	<test name="exampletest2" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.EmployessAddEmployee" />
+		</classes>
+	</test>
+		<test name="exampletest3" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.EmployeeLoginAs" />
+		</classes>
+	</test>
+	<test name="exampletest4" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.EmployeeHomeFilter" />
+		</classes>
+	</test>
+	<test name="exampletest5" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.EmployeeSearch" />
+		</classes>
+	</test>
+	<test name="exampletest6" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.EmployeeSearchEdit" />
+		</classes>
+	</test>
+
+	<test name="exampletest7" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.EmployeeView" />
+		</classes>
+	</test>
+		<test name="exampletest8" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.EmployeeTerminateEmployee" />
+		</classes>
+	</test>
+		<test name="exampletest9" preserve-order="true">
+		
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.DeactivateEmployee" />
+		</classes>
+	</test>
+			<test name="exampletest10" preserve-order="true">
+		
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.DeactivatedEmployeeFilter" />
+		</classes>
+	</test>
+		<test name="exampletest11" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.DeactivatedEmployeeArchive" />
+		</classes>
+	</test>
+			<test name="exampletest12" preserve-order="true">
+	<parameter name="runMode" value="visible" />
+		<classes>
+			<class name="sprint0.TerminatedEmployeeDownloadData" />
+		</classes>
+	</test>
+		<test name="exampletest13" preserve-order="true">
+	<parameter name="runMode" value="hidden" />
+		<classes>
+			<class name="sprint0.TerminatedEmployeeData" />
+		</classes>
+	</test>
+
+
+</suite> 
+  

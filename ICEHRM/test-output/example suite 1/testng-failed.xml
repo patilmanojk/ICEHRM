@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <listeners>
+    <listener class-name="listerners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="exampletest8(failed)">
+    <parameter name="runMode" value="hidden"/>
+    <classes>
+      <class name="sprint0.EmployeeTerminateEmployee">
+        <methods>
+          <include name="testTerminateEmployee" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- sprint0.EmployeeTerminateEmployee -->
+    </classes>
+  </test> <!-- exampletest8(failed) -->
+  <test thread-count="5" name="exampletest11(failed)">
+    <parameter name="runMode" value="hidden"/>
+    <classes>
+      <class name="sprint0.DeactivatedEmployeeArchive">
+        <methods>
+          <include name="testTerminateEmployee" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- sprint0.DeactivatedEmployeeArchive -->
+    </classes>
+  </test> <!-- exampletest11(failed) -->
+  <test thread-count="5" name="exampletest12(failed)">
+    <parameter name="runMode" value="hidden"/>
+    <classes>
+      <class name="sprint0.TerminatedEmployeeDownloadData">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="testTerminateEmployeeDataDownLoad" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- sprint0.TerminatedEmployeeDownloadData -->
+    </classes>
+  </test> <!-- exampletest12(failed) -->
+  <test thread-count="5" name="exampletest13(failed)">
+    <parameter name="runMode" value="hidden"/>
+    <classes>
+      <class name="sprint0.TerminatedEmployeeData">
+        <methods>
+          <include name="testTerminateEmployeeDelete" invocation-numbers="0 4"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- sprint0.TerminatedEmployeeData -->
+    </classes>
+  </test> <!-- exampletest13(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

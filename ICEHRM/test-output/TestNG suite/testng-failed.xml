@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG suite]">
+  <test thread-count="5" name="exampletest1(failed)">
+    <parameter name="runMode" value="hidden"/>
+    <classes>
+      <class name="sprint0.DeactivateEmployee">
+        <methods>
+          <include name="testDeactivateEmployee" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- sprint0.DeactivateEmployee -->
+    </classes>
+  </test> <!-- exampletest1(failed) -->
+</suite> <!-- Failed suite [TestNG suite] -->

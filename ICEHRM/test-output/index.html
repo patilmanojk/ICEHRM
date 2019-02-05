@@ -1,0 +1,2636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-example_suite_1">
+              <span class="suite-name border-failed">example suite 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-example_suite_1">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-example_suite_1">
+                    <span class="test-stats">13 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-example_suite_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-example_suite_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-example_suite_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-example_suite_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-example_suite_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">67 methods, 10 failed,   57 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-example_suite_1" class="hide-methods failed suite-example_suite_1"> (hide)</a> <!-- hide-methods failed suite-example_suite_1 -->
+                      <a href="#" panel-name="suite-example_suite_1" class="show-methods failed suite-example_suite_1"> (show)</a> <!-- show-methods failed suite-example_suite_1 -->
+                    </span>
+                    <div class="method-list-content failed suite-example_suite_1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeTerminateEmployee" hash-for-method="testTerminateEmployee(James)">testTerminateEmployee(James)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivatedEmployeeArchive" hash-for-method="testTerminateEmployee(Zucchinni)">testTerminateEmployee(Zucchinni)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivatedEmployeeArchive" hash-for-method="testTerminateEmployee(Kale)">testTerminateEmployee(Kale)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivatedEmployeeArchive" hash-for-method="testTerminateEmployee(Oliver)">testTerminateEmployee(Oliver)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivatedEmployeeArchive" hash-for-method="testTerminateEmployee(Bruce)">testTerminateEmployee(Bruce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivatedEmployeeArchive" hash-for-method="testTerminateEmployee(London)">testTerminateEmployee(London)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivatedEmployeeArchive" hash-for-method="testTerminateEmployee(James)">testTerminateEmployee(James)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.TerminatedEmployeeDownloadData" hash-for-method="testTerminateEmployeeDataDownLoad(Jake, employee_42_Jake_Bruce.txt)">testTerminateEmployeeDataDownLoad(Jake, employee_42_Jake_Bruce.txt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.TerminatedEmployeeData" hash-for-method="testTerminateEmployeeDelete(Bruce)">testTerminateEmployeeDelete(Bruce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.TerminatedEmployeeData" hash-for-method="testTerminateEmployeeDelete(James)">testTerminateEmployeeDelete(James)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-example_suite_1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-example_suite_1" class="hide-methods passed suite-example_suite_1"> (hide)</a> <!-- hide-methods passed suite-example_suite_1 -->
+                      <a href="#" panel-name="suite-example_suite_1" class="show-methods passed suite-example_suite_1"> (show)</a> <!-- show-methods passed suite-example_suite_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-example_suite_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserDuplicate(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)">testAddUserDuplicate(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, IceHrm...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, IceHrm...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , AUSTINE, Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office,...)">testAddUserInvalidData(, , AUSTINE, Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, JANE, , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , ...)">testAddUserInvalidData(, JANE, , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(IND0001002, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Offi...)">testAddUserInvalidData(IND0001002, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Offi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, 20101226, Head Office...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, 20101226, Head Office...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, 19801021, Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office...)">testAddUserInvalidData(, , , Indian, 19801021, Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserValid(IND0001002, Kale, Kale, Indian, 19801013, Female, Divorced, Part Time Permanent, Product Manager, In...)">testAddUserValid(IND0001002, Kale, Kale, Indian, 19801013, Female, Divorced, Part Time Permanent, Product Manager, In...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserValid(IND0001003, Zucchinni, Zucchinni, Indian, 19801014, Female, Divorced, Part Time Permanent, Product M...)">testAddUserValid(IND0001003, Zucchinni, Zucchinni, Indian, 19801014, Female, Divorced, Part Time Permanent, Product M...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserValid(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)">testAddUserValid(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserValid(IND0001005, Bruce, Willis, Indian, 19801016, Male, Divorced, Part Time Permanent, Product Manager, I...)">testAddUserValid(IND0001005, Bruce, Willis, Indian, 19801016, Male, Divorced, Part Time Permanent, Product Manager, I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserValid(IND0001004, Oliver, Olives, Indian, 19801015, Male, Divorced, Part Time Permanent, Product Manager, ...)">testAddUserValid(IND0001004, Oliver, Olives, Indian, 19801015, Male, Divorced, Part Time Permanent, Product Manager, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployessAddEmployee" hash-for-method="testAddUserValid(IND0001006, London, Martin, Indian, 19801017, Male, Divorced, Part Time Permanent, Product Manager, ...)">testAddUserValid(IND0001006, London, Martin, Indian, 19801017, Male, Divorced, Part Time Permanent, Product Manager, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testDeactivateEmployee(Kale, Stuart)">testDeactivateEmployee(Kale, Stuart)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testDeactivateEmployee(Zucchinni, 19701010)">testDeactivateEmployee(Zucchinni, 19701010)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testDeactivateEmployee(Oliver, Widowed)">testDeactivateEmployee(Oliver, Widowed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testDeactivateEmployee(Bruce, Part Time Internship)">testDeactivateEmployee(Bruce, Part Time Internship)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testEditDeactivateEmployee(Zucchinni, 19701010)">testEditDeactivateEmployee(Zucchinni, 19701010)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testEditDeactivateEmployee(Kale, Stuart)">testEditDeactivateEmployee(Kale, Stuart)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testEditDeactivateEmployee(Oliver, Widowed)">testEditDeactivateEmployee(Oliver, Widowed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testEditDeactivateEmployee(Bruce, Part Time Internship)">testEditDeactivateEmployee(Bruce, Part Time Internship)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeSearchEdit" hash-for-method="testEditEmployeeNote(James, Test Note)">testEditEmployeeNote(James, Test Note)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeView" hash-for-method="testEmployeeView(James)">testEmployeeView(James)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeHomeFilter" hash-for-method="testFilterDepartment(Head Office)">testFilterDepartment(Head Office)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeHomeFilter" hash-for-method="testFilterJobTitle(Product Manager)">testFilterJobTitle(Product Manager)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeHomeFilter" hash-for-method="testFilterSupervisor(IceHrm Employee)">testFilterSupervisor(IceHrm Employee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeLoginAs" hash-for-method="testLoginAsValid(James)">testLoginAsValid(James)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeView" hash-for-method="testProfileImageUpload(James)">testProfileImageUpload(James)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testRestoreEmployee(Kale, Stuart)">testRestoreEmployee(Kale, Stuart)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testRestoreEmployee(Bruce, Part Time Internship)">testRestoreEmployee(Bruce, Part Time Internship)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testRestoreEmployee(Oliver, Widowed)">testRestoreEmployee(Oliver, Widowed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testRestoreEmployee(Zucchinni, 19701010)">testRestoreEmployee(Zucchinni, 19701010)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeSearch" hash-for-method="testSearchInvalid(xx)">testSearchInvalid(xx)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeSearch" hash-for-method="testSearchLastname(Martin)">testSearchLastname(Martin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.EmployeeSearch" hash-for-method="testSearchName(James)">testSearchName(James)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testSearchName(Oliver, Widowed)">testSearchName(Oliver, Widowed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testSearchName(Kale, Stuart)">testSearchName(Kale, Stuart)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testSearchName(Bruce, Part Time Internship)">testSearchName(Bruce, Part Time Internship)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivateEmployee" hash-for-method="testSearchName(Zucchinni, 19701010)">testSearchName(Zucchinni, 19701010)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.DeactivatedEmployeeFilter" hash-for-method="testTerminateEmployee(Product Manager)">testTerminateEmployee(Product Manager)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.TerminatedEmployeeData" hash-for-method="testTerminateEmployeeDelete(Oliver)">testTerminateEmployeeDelete(Oliver)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.TerminatedEmployeeData" hash-for-method="testTerminateEmployeeDelete(Kale)">testTerminateEmployeeDelete(Kale)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.TerminatedEmployeeData" hash-for-method="testTerminateEmployeeDelete(Zucchinni)">testTerminateEmployeeDelete(Zucchinni)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.TerminatedEmployeeData" hash-for-method="testTerminateEmployeeDelete(London)">testTerminateEmployeeDelete(London)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.UserLogin" hash-for-method="testUserLogin_inValid(dsfsafgsagfdsfgsdkfgdsksjggfdsgdgfdgfdfngfhgfhfhgfhgfhjghjgfhjgfjhgjgfjhgjhgjhgdtrytrytrvcgfhfg, fdl...)">testUserLogin_inValid(dsfsafgsagfdsfgsdkfgdsksjggfdsgdgfdgfdfngfhgfhfhgfhgfhjghjgfhjgfjhgjgfjhgjhgjhgdtrytrytrvcgfhfg, fdl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.UserLogin" hash-for-method="testUserLogin_inValid(admin, , 0)">testUserLogin_inValid(admin, , 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.UserLogin" hash-for-method="testUserLogin_inValid(^&amp;$*(%&amp;^)(*^(*&amp;)(^&amp;, *%*(&amp;^(^(*^(*^(*^(*^, 1)">testUserLogin_inValid(^&$*(%&^)(*^(*&)(^&, *%*(&^(^(*^(*^(*^(*^, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.UserLogin" hash-for-method="testUserLogin_inValid(1234344444556660, 435365464576577657657, 1)">testUserLogin_inValid(1234344444556660, 435365464576577657657, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.UserLogin" hash-for-method="testUserLogin_inValid(, admin, 0)">testUserLogin_inValid(, admin, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="sprint0.UserLogin" hash-for-method="testUserLogin_valid">testUserLogin_valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-example_suite_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-example_suite_1" class="panel example_suite_1">
+          <div class="suite-example_suite_1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sprint0.TerminatedEmployeeDownloadData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployeeDataDownLoad(Jake, employee_42_Jake_Bruce.txt)">
+                  </a> <!-- testTerminateEmployeeDataDownLoad(Jake, employee_42_Jake_Bruce.txt) -->
+                  <span class="method-name">testTerminateEmployeeDataDownLoad</span>
+                  <span class="parameters">(Jake, employee_42_Jake_Bruce.txt)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [File already exist] but found [File does not exist]
+	at sprint0.TerminatedEmployeeDownloadData.testTerminateEmployeeDataDownLoad(TerminatedEmployeeDownloadData.java:42)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-failed -->
+          <div class="suite-example_suite_1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sprint0.TerminatedEmployeeData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployeeDelete(Bruce)">
+                  </a> <!-- testTerminateEmployeeDelete(Bruce) -->
+                  <span class="method-name">testTerminateEmployeeDelete</span>
+                  <span class="parameters">(Bruce)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;mac.local&apos;, ip: &apos;fe80:0:0:0:416:4f24:fa75:517%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/93/cv8d4r_j66b...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53515}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 96abe5b070bb8fddadc94ad9bb994989
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sprint0.login.POM.EmployessEmployeesPagePOM.SelectEmployeeArchieveDelete(EmployessEmployeesPagePOM.java:615)
+	at sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(TerminatedEmployeeData.java:35)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployeeDelete(James)">
+                  </a> <!-- testTerminateEmployeeDelete(James) -->
+                  <span class="method-name">testTerminateEmployeeDelete</span>
+                  <span class="parameters">(James)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;mac.local&apos;, ip: &apos;fe80:0:0:0:416:4f24:fa75:517%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/93/cv8d4r_j66b...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53407}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 66df5b468cfc8d3d8e04a016f29ec6b2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sprint0.login.POM.EmployessEmployeesPagePOM.SelectEmployeeArchieveDelete(EmployessEmployeesPagePOM.java:615)
+	at sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(TerminatedEmployeeData.java:35)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-failed -->
+          <div class="suite-example_suite_1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sprint0.DeactivatedEmployeeArchive</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(Zucchinni)">
+                  </a> <!-- testTerminateEmployee(Zucchinni) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(Zucchinni)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(DeactivatedEmployeeArchive.java:48)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(Kale)">
+                  </a> <!-- testTerminateEmployee(Kale) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(Kale)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(DeactivatedEmployeeArchive.java:48)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(Oliver)">
+                  </a> <!-- testTerminateEmployee(Oliver) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(Oliver)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(DeactivatedEmployeeArchive.java:48)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(Bruce)">
+                  </a> <!-- testTerminateEmployee(Bruce) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(Bruce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(DeactivatedEmployeeArchive.java:48)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(London)">
+                  </a> <!-- testTerminateEmployee(London) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(London)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(DeactivatedEmployeeArchive.java:48)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(James)">
+                  </a> <!-- testTerminateEmployee(James) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(James)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(DeactivatedEmployeeArchive.java:48)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-failed -->
+          <div class="suite-example_suite_1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sprint0.EmployeeTerminateEmployee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(James)">
+                  </a> <!-- testTerminateEmployee(James) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(James)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at sprint0.EmployeeTerminateEmployee.testTerminateEmployee(EmployeeTerminateEmployee.java:48)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-failed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.EmployeeView</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployeeView(James)">
+                  </a> <!-- testEmployeeView(James) -->
+                  <span class="method-name">testEmployeeView</span>
+                  <span class="parameters">(James)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProfileImageUpload(James)">
+                  </a> <!-- testProfileImageUpload(James) -->
+                  <span class="method-name">testProfileImageUpload</span>
+                  <span class="parameters">(James)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.DeactivateEmployee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeactivateEmployee(Kale, Stuart)">
+                  </a> <!-- testDeactivateEmployee(Kale, Stuart) -->
+                  <span class="method-name">testDeactivateEmployee</span>
+                  <span class="parameters">(Kale, Stuart)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeactivateEmployee(Zucchinni, 19701010)">
+                  </a> <!-- testDeactivateEmployee(Zucchinni, 19701010) -->
+                  <span class="method-name">testDeactivateEmployee</span>
+                  <span class="parameters">(Zucchinni, 19701010)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeactivateEmployee(Oliver, Widowed)">
+                  </a> <!-- testDeactivateEmployee(Oliver, Widowed) -->
+                  <span class="method-name">testDeactivateEmployee</span>
+                  <span class="parameters">(Oliver, Widowed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeactivateEmployee(Bruce, Part Time Internship)">
+                  </a> <!-- testDeactivateEmployee(Bruce, Part Time Internship) -->
+                  <span class="method-name">testDeactivateEmployee</span>
+                  <span class="parameters">(Bruce, Part Time Internship)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditDeactivateEmployee(Zucchinni, 19701010)">
+                  </a> <!-- testEditDeactivateEmployee(Zucchinni, 19701010) -->
+                  <span class="method-name">testEditDeactivateEmployee</span>
+                  <span class="parameters">(Zucchinni, 19701010)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditDeactivateEmployee(Kale, Stuart)">
+                  </a> <!-- testEditDeactivateEmployee(Kale, Stuart) -->
+                  <span class="method-name">testEditDeactivateEmployee</span>
+                  <span class="parameters">(Kale, Stuart)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditDeactivateEmployee(Oliver, Widowed)">
+                  </a> <!-- testEditDeactivateEmployee(Oliver, Widowed) -->
+                  <span class="method-name">testEditDeactivateEmployee</span>
+                  <span class="parameters">(Oliver, Widowed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditDeactivateEmployee(Bruce, Part Time Internship)">
+                  </a> <!-- testEditDeactivateEmployee(Bruce, Part Time Internship) -->
+                  <span class="method-name">testEditDeactivateEmployee</span>
+                  <span class="parameters">(Bruce, Part Time Internship)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestoreEmployee(Kale, Stuart)">
+                  </a> <!-- testRestoreEmployee(Kale, Stuart) -->
+                  <span class="method-name">testRestoreEmployee</span>
+                  <span class="parameters">(Kale, Stuart)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestoreEmployee(Bruce, Part Time Internship)">
+                  </a> <!-- testRestoreEmployee(Bruce, Part Time Internship) -->
+                  <span class="method-name">testRestoreEmployee</span>
+                  <span class="parameters">(Bruce, Part Time Internship)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestoreEmployee(Oliver, Widowed)">
+                  </a> <!-- testRestoreEmployee(Oliver, Widowed) -->
+                  <span class="method-name">testRestoreEmployee</span>
+                  <span class="parameters">(Oliver, Widowed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestoreEmployee(Zucchinni, 19701010)">
+                  </a> <!-- testRestoreEmployee(Zucchinni, 19701010) -->
+                  <span class="method-name">testRestoreEmployee</span>
+                  <span class="parameters">(Zucchinni, 19701010)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchName(Oliver, Widowed)">
+                  </a> <!-- testSearchName(Oliver, Widowed) -->
+                  <span class="method-name">testSearchName</span>
+                  <span class="parameters">(Oliver, Widowed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchName(Kale, Stuart)">
+                  </a> <!-- testSearchName(Kale, Stuart) -->
+                  <span class="method-name">testSearchName</span>
+                  <span class="parameters">(Kale, Stuart)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchName(Bruce, Part Time Internship)">
+                  </a> <!-- testSearchName(Bruce, Part Time Internship) -->
+                  <span class="method-name">testSearchName</span>
+                  <span class="parameters">(Bruce, Part Time Internship)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchName(Zucchinni, 19701010)">
+                  </a> <!-- testSearchName(Zucchinni, 19701010) -->
+                  <span class="method-name">testSearchName</span>
+                  <span class="parameters">(Zucchinni, 19701010)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.EmployeeSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchInvalid(xx)">
+                  </a> <!-- testSearchInvalid(xx) -->
+                  <span class="method-name">testSearchInvalid</span>
+                  <span class="parameters">(xx)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchLastname(Martin)">
+                  </a> <!-- testSearchLastname(Martin) -->
+                  <span class="method-name">testSearchLastname</span>
+                  <span class="parameters">(Martin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchName(James)">
+                  </a> <!-- testSearchName(James) -->
+                  <span class="method-name">testSearchName</span>
+                  <span class="parameters">(James)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.EmployessAddEmployee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserDuplicate(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)">
+                  </a> <!-- testAddUserDuplicate(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...) -->
+                  <span class="method-name">testAddUserDuplicate</span>
+                  <span class="parameters">(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, India, 20101231, Head Office, IceHrm Employee, Stuart, Asian American, Work Permit Holder, SSN000001, 10201012, JAMES, DL1010101, Administrator, JAMESMARTIN, ROOP MAHEL, PREM GALLI, MARATHON, Massachusetts, 46746, 4538753857, 5479347589, 9348958958, james@gmail.com, martin@gmail.com, 20121212, 20121212, IceHrm Employee, Taylor Holmes, Gary Ruth, Cynthia Roger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, IceHrm...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, IceHrm...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, IceHrm Employee, , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , AUSTINE, Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office,...)">
+                  </a> <!-- testAddUserInvalidData(, , AUSTINE, Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office,...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , AUSTINE, Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, JANE, , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , ...)">
+                  </a> <!-- testAddUserInvalidData(, JANE, , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , ...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, JANE, , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(IND0001002, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Offi...)">
+                  </a> <!-- testAddUserInvalidData(IND0001002, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Offi...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(IND0001002, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, 20101226, Head Office...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, 20101226, Head Office...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, 20101226, Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, 19801021, Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, 19801021, Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, 19801021, Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)">
+                  </a> <!-- testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...) -->
+                  <span class="method-name">testAddUserInvalidData</span>
+                  <span class="parameters">(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Select, Select, , , , , Select, , , , , Select, , , , , , , , , Select, None, None, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserValid(IND0001002, Kale, Kale, Indian, 19801013, Female, Divorced, Part Time Permanent, Product Manager, In...)">
+                  </a> <!-- testAddUserValid(IND0001002, Kale, Kale, Indian, 19801013, Female, Divorced, Part Time Permanent, Product Manager, In...) -->
+                  <span class="method-name">testAddUserValid</span>
+                  <span class="parameters">(IND0001002, Kale, Kale, Indian, 19801013, Female, Divorced, Part Time Permanent, Product Manager, India, 20101232, Head Office, IceHrm Employee, Stuart, Asian American, Work Permit Holder, SSN000002, 10201013, JAMES, DL1010102, Administrator, JAMESMARTIN, ROOP MAHEL, PREM GALLI, MARATHON, Massachusetts, 46747, 4538753857, 5479347589, 9348958958, Nazia@gmail.com, Nazia@gmail.com, 20121212, 20121212, IceHrm Employee, Taylor Holmes, Gary Ruth, Cynthia Roger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserValid(IND0001003, Zucchinni, Zucchinni, Indian, 19801014, Female, Divorced, Part Time Permanent, Product M...)">
+                  </a> <!-- testAddUserValid(IND0001003, Zucchinni, Zucchinni, Indian, 19801014, Female, Divorced, Part Time Permanent, Product M...) -->
+                  <span class="method-name">testAddUserValid</span>
+                  <span class="parameters">(IND0001003, Zucchinni, Zucchinni, Indian, 19801014, Female, Divorced, Part Time Permanent, Product Manager, India, 20101233, Head Office, IceHrm Employee, Stuart, Asian American, Work Permit Holder, SSN000003, 10201014, JAMES, DL1010103, Administrator, JAMESMARTIN, ROOP MAHEL, PREM GALLI, MARATHON, Massachusetts, 46748, 4538753857, 5479347589, 9348958958, Laila@gmail.com, Laila@gmail.com, 20121212, 20121212, IceHrm Employee, Taylor Holmes, Gary Ruth, Cynthia Roger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserValid(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)">
+                  </a> <!-- testAddUserValid(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...) -->
+                  <span class="method-name">testAddUserValid</span>
+                  <span class="parameters">(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, India, 20101231, Head Office, IceHrm Employee, Stuart, Asian American, Work Permit Holder, SSN000001, 10201012, JAMES, DL1010101, Administrator, JAMESMARTIN, ROOP MAHEL, PREM GALLI, MARATHON, Massachusetts, 46746, 4538753857, 5479347589, 9348958958, james@gmail.com, martin@gmail.com, 20121212, 20121212, IceHrm Employee, Taylor Holmes, Gary Ruth, Cynthia Roger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserValid(IND0001005, Bruce, Willis, Indian, 19801016, Male, Divorced, Part Time Permanent, Product Manager, I...)">
+                  </a> <!-- testAddUserValid(IND0001005, Bruce, Willis, Indian, 19801016, Male, Divorced, Part Time Permanent, Product Manager, I...) -->
+                  <span class="method-name">testAddUserValid</span>
+                  <span class="parameters">(IND0001005, Bruce, Willis, Indian, 19801016, Male, Divorced, Part Time Permanent, Product Manager, India, 20101235, Head Office, IceHrm Employee, Stuart, Asian American, Work Permit Holder, SSN000005, 10201016, JAMES, DL1010105, Administrator, JAMESMARTIN, ROOP MAHEL, PREM GALLI, MARATHON, Massachusetts, 46750, 4538753857, 5479347589, 9348958958, Oliver@gmail.com, Oliver@gmail.com, 20121212, 20121212, IceHrm Employee, Taylor Holmes, Gary Ruth, Cynthia Roger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserValid(IND0001004, Oliver, Olives, Indian, 19801015, Male, Divorced, Part Time Permanent, Product Manager, ...)">
+                  </a> <!-- testAddUserValid(IND0001004, Oliver, Olives, Indian, 19801015, Male, Divorced, Part Time Permanent, Product Manager, ...) -->
+                  <span class="method-name">testAddUserValid</span>
+                  <span class="parameters">(IND0001004, Oliver, Olives, Indian, 19801015, Male, Divorced, Part Time Permanent, Product Manager, India, 20101234, Head Office, IceHrm Employee, Stuart, Asian American, Work Permit Holder, SSN000004, 10201015, JAMES, DL1010104, Administrator, JAMESMARTIN, ROOP MAHEL, PREM GALLI, MARATHON, Massachusetts, 46749, 4538753857, 5479347589, 9348958958, Martin@gmail.com, Martin@gmail.com, 20121212, 20121212, IceHrm Employee, Taylor Holmes, Gary Ruth, Cynthia Roger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUserValid(IND0001006, London, Martin, Indian, 19801017, Male, Divorced, Part Time Permanent, Product Manager, ...)">
+                  </a> <!-- testAddUserValid(IND0001006, London, Martin, Indian, 19801017, Male, Divorced, Part Time Permanent, Product Manager, ...) -->
+                  <span class="method-name">testAddUserValid</span>
+                  <span class="parameters">(IND0001006, London, Martin, Indian, 19801017, Male, Divorced, Part Time Permanent, Product Manager, India, 20101236, Head Office, IceHrm Employee, Stuart, Asian American, Work Permit Holder, SSN000006, 10201017, JAMES, DL1010106, Administrator, JAMESMARTIN, ROOP MAHEL, PREM GALLI, MARATHON, Massachusetts, 46751, 4538753857, 5479347589, 9348958958, Bruce@gmail.com, Bruce@gmail.com, 20121212, 20121212, IceHrm Employee, Taylor Holmes, Gary Ruth, Cynthia Roger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.TerminatedEmployeeData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployeeDelete(Oliver)">
+                  </a> <!-- testTerminateEmployeeDelete(Oliver) -->
+                  <span class="method-name">testTerminateEmployeeDelete</span>
+                  <span class="parameters">(Oliver)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployeeDelete(Kale)">
+                  </a> <!-- testTerminateEmployeeDelete(Kale) -->
+                  <span class="method-name">testTerminateEmployeeDelete</span>
+                  <span class="parameters">(Kale)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployeeDelete(Zucchinni)">
+                  </a> <!-- testTerminateEmployeeDelete(Zucchinni) -->
+                  <span class="method-name">testTerminateEmployeeDelete</span>
+                  <span class="parameters">(Zucchinni)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployeeDelete(London)">
+                  </a> <!-- testTerminateEmployeeDelete(London) -->
+                  <span class="method-name">testTerminateEmployeeDelete</span>
+                  <span class="parameters">(London)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.DeactivatedEmployeeFilter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTerminateEmployee(Product Manager)">
+                  </a> <!-- testTerminateEmployee(Product Manager) -->
+                  <span class="method-name">testTerminateEmployee</span>
+                  <span class="parameters">(Product Manager)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.EmployeeSearchEdit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditEmployeeNote(James, Test Note)">
+                  </a> <!-- testEditEmployeeNote(James, Test Note) -->
+                  <span class="method-name">testEditEmployeeNote</span>
+                  <span class="parameters">(James, Test Note)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.EmployeeHomeFilter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterDepartment(Head Office)">
+                  </a> <!-- testFilterDepartment(Head Office) -->
+                  <span class="method-name">testFilterDepartment</span>
+                  <span class="parameters">(Head Office)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterJobTitle(Product Manager)">
+                  </a> <!-- testFilterJobTitle(Product Manager) -->
+                  <span class="method-name">testFilterJobTitle</span>
+                  <span class="parameters">(Product Manager)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterSupervisor(IceHrm Employee)">
+                  </a> <!-- testFilterSupervisor(IceHrm Employee) -->
+                  <span class="method-name">testFilterSupervisor</span>
+                  <span class="parameters">(IceHrm Employee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.EmployeeLoginAs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAsValid(James)">
+                  </a> <!-- testLoginAsValid(James) -->
+                  <span class="method-name">testLoginAsValid</span>
+                  <span class="parameters">(James)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint0.UserLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin_inValid(dsfsafgsagfdsfgsdkfgdsksjggfdsgdgfdgfdfngfhgfhfhgfhgfhjghjgfhjgfjhgjgfjhgjhgjhgdtrytrytrvcgfhfg, fdl...)">
+                  </a> <!-- testUserLogin_inValid(dsfsafgsagfdsfgsdkfgdsksjggfdsgdgfdgfdfngfhgfhfhgfhgfhjghjgfhjgfjhgjgfjhgjhgjhgdtrytrytrvcgfhfg, fdl...) -->
+                  <span class="method-name">testUserLogin_inValid</span>
+                  <span class="parameters">(dsfsafgsagfdsfgsdkfgdsksjggfdsgdgfdgfdfngfhgfhfhgfhgfhjghjgfhjgfjhgjgfjhgjhgjhgdtrytrytrvcgfhfg, fdlkgfdhjghdsflkjgfdhjgfdghlfdhfdglkhfdsdsllsgfdgsfdgfdsgfdgfdfdggfhfhgfh, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin_inValid(admin, , 0)">
+                  </a> <!-- testUserLogin_inValid(admin, , 0) -->
+                  <span class="method-name">testUserLogin_inValid</span>
+                  <span class="parameters">(admin, , 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin_inValid(^&amp;$*(%&amp;^)(*^(*&amp;)(^&amp;, *%*(&amp;^(^(*^(*^(*^(*^, 1)">
+                  </a> <!-- testUserLogin_inValid(^&$*(%&^)(*^(*&)(^&, *%*(&^(^(*^(*^(*^(*^, 1) -->
+                  <span class="method-name">testUserLogin_inValid</span>
+                  <span class="parameters">(^&$*(%&^)(*^(*&)(^&, *%*(&^(^(*^(*^(*^(*^, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin_inValid(1234344444556660, 435365464576577657657, 1)">
+                  </a> <!-- testUserLogin_inValid(1234344444556660, 435365464576577657657, 1) -->
+                  <span class="method-name">testUserLogin_inValid</span>
+                  <span class="parameters">(1234344444556660, 435365464576577657657, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin_inValid(, admin, 0)">
+                  </a> <!-- testUserLogin_inValid(, admin, 0) -->
+                  <span class="method-name">testUserLogin_inValid</span>
+                  <span class="parameters">(, admin, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin_valid">
+                  </a> <!-- testUserLogin_valid -->
+                  <span class="method-name">testUserLogin_valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+        </div> <!-- panel example_suite_1 -->
+        <div panel-name="test-xml-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/manoj/Documents/GitHub/ICEHRM/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;example suite 1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listerners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest1&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.UserLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest2&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.EmployessAddEmployee&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest3&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.EmployeeLoginAs&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest4&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.EmployeeHomeFilter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest5&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.EmployeeSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest5 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest6&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.EmployeeSearchEdit&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest6 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest7&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.EmployeeView&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest7 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest8&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.EmployeeTerminateEmployee&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest8 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest9&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.DeactivateEmployee&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest9 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest10&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.DeactivatedEmployeeFilter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest10 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest11&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.DeactivatedEmployeeArchive&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest11 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest12&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.TerminatedEmployeeDownloadData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest12 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;exampletest13&quot;&gt;
+    &lt;parameter name=&quot;runMode&quot; value=&quot;hidden&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint0.TerminatedEmployeeData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- exampletest13 --&gt;
+&lt;/suite&gt; &lt;!-- example suite 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">exampletest1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest7 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest8 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest9 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest11 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest12 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">exampletest13 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_example_suite_1');
+function tableData_example_suite_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(67);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testEditEmployeeNote')
+data.setCell(0, 2, 'sprint0.EmployeeSearchEdit')
+data.setCell(0, 3, 41839);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testProfileImageUpload')
+data.setCell(1, 2, 'sprint0.EmployeeView')
+data.setCell(1, 3, 34442);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginAsValid')
+data.setCell(2, 2, 'sprint0.EmployeeLoginAs')
+data.setCell(2, 3, 28772);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testTerminateEmployee')
+data.setCell(3, 2, 'sprint0.EmployeeTerminateEmployee')
+data.setCell(3, 3, 28216);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAddUserValid')
+data.setCell(4, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(4, 3, 27206);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testEditDeactivateEmployee')
+data.setCell(5, 2, 'sprint0.DeactivateEmployee')
+data.setCell(5, 3, 26920);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testTerminateEmployee')
+data.setCell(6, 2, 'sprint0.DeactivatedEmployeeArchive')
+data.setCell(6, 3, 26709);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAddUserValid')
+data.setCell(7, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(7, 3, 26455);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTerminateEmployee')
+data.setCell(8, 2, 'sprint0.DeactivatedEmployeeArchive')
+data.setCell(8, 3, 25661);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAddUserValid')
+data.setCell(9, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(9, 3, 25641);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAddUserDuplicate')
+data.setCell(10, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(10, 3, 25515);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDeactivateEmployee')
+data.setCell(11, 2, 'sprint0.DeactivateEmployee')
+data.setCell(11, 3, 25155);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAddUserInvalidData')
+data.setCell(12, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(12, 3, 24832);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeactivateEmployee')
+data.setCell(13, 2, 'sprint0.DeactivateEmployee')
+data.setCell(13, 3, 24596);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testTerminateEmployee')
+data.setCell(14, 2, 'sprint0.DeactivatedEmployeeArchive')
+data.setCell(14, 3, 24523);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testEditDeactivateEmployee')
+data.setCell(15, 2, 'sprint0.DeactivateEmployee')
+data.setCell(15, 3, 23869);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testAddUserValid')
+data.setCell(16, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(16, 3, 23805);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testAddUserInvalidData')
+data.setCell(17, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(17, 3, 23690);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testAddUserInvalidData')
+data.setCell(18, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(18, 3, 23482);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testAddUserValid')
+data.setCell(19, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(19, 3, 23398);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testTerminateEmployee')
+data.setCell(20, 2, 'sprint0.DeactivatedEmployeeArchive')
+data.setCell(20, 3, 23322);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testAddUserInvalidData')
+data.setCell(21, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(21, 3, 23195);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testEditDeactivateEmployee')
+data.setCell(22, 2, 'sprint0.DeactivateEmployee')
+data.setCell(22, 3, 23016);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testTerminateEmployeeDelete')
+data.setCell(23, 2, 'sprint0.TerminatedEmployeeData')
+data.setCell(23, 3, 22912);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testTerminateEmployeeDataDownLoad')
+data.setCell(24, 2, 'sprint0.TerminatedEmployeeDownloadData')
+data.setCell(24, 3, 22837);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSearchLastname')
+data.setCell(25, 2, 'sprint0.EmployeeSearch')
+data.setCell(25, 3, 22809);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testTerminateEmployee')
+data.setCell(26, 2, 'sprint0.DeactivatedEmployeeArchive')
+data.setCell(26, 3, 22719);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testAddUserInvalidData')
+data.setCell(27, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(27, 3, 22687);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testAddUserValid')
+data.setCell(28, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(28, 3, 22668);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testTerminateEmployeeDelete')
+data.setCell(29, 2, 'sprint0.TerminatedEmployeeData')
+data.setCell(29, 3, 22344);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testFilterDepartment')
+data.setCell(30, 2, 'sprint0.EmployeeHomeFilter')
+data.setCell(30, 3, 22339);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testTerminateEmployeeDelete')
+data.setCell(31, 2, 'sprint0.TerminatedEmployeeData')
+data.setCell(31, 3, 22259);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testSearchName')
+data.setCell(32, 2, 'sprint0.DeactivateEmployee')
+data.setCell(32, 3, 21958);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testTerminateEmployee')
+data.setCell(33, 2, 'sprint0.DeactivatedEmployeeArchive')
+data.setCell(33, 3, 21905);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testEmployeeView')
+data.setCell(34, 2, 'sprint0.EmployeeView')
+data.setCell(34, 3, 21865);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testEditDeactivateEmployee')
+data.setCell(35, 2, 'sprint0.DeactivateEmployee')
+data.setCell(35, 3, 21772);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testDeactivateEmployee')
+data.setCell(36, 2, 'sprint0.DeactivateEmployee')
+data.setCell(36, 3, 21560);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testRestoreEmployee')
+data.setCell(37, 2, 'sprint0.DeactivateEmployee')
+data.setCell(37, 3, 21535);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testFilterJobTitle')
+data.setCell(38, 2, 'sprint0.EmployeeHomeFilter')
+data.setCell(38, 3, 21269);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSearchName')
+data.setCell(39, 2, 'sprint0.EmployeeSearch')
+data.setCell(39, 3, 21239);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testSearchInvalid')
+data.setCell(40, 2, 'sprint0.EmployeeSearch')
+data.setCell(40, 3, 21124);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testAddUserInvalidData')
+data.setCell(41, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(41, 3, 20873);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testAddUserInvalidData')
+data.setCell(42, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(42, 3, 20866);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testRestoreEmployee')
+data.setCell(43, 2, 'sprint0.DeactivateEmployee')
+data.setCell(43, 3, 20736);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testAddUserInvalidData')
+data.setCell(44, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(44, 3, 20735);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testDeactivateEmployee')
+data.setCell(45, 2, 'sprint0.DeactivateEmployee')
+data.setCell(45, 3, 20730);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testSearchName')
+data.setCell(46, 2, 'sprint0.DeactivateEmployee')
+data.setCell(46, 3, 20403);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testAddUserInvalidData')
+data.setCell(47, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(47, 3, 20349);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testTerminateEmployeeDelete')
+data.setCell(48, 2, 'sprint0.TerminatedEmployeeData')
+data.setCell(48, 3, 20263);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testAddUserInvalidData')
+data.setCell(49, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(49, 3, 20064);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testTerminateEmployeeDelete')
+data.setCell(50, 2, 'sprint0.TerminatedEmployeeData')
+data.setCell(50, 3, 20028);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testRestoreEmployee')
+data.setCell(51, 2, 'sprint0.DeactivateEmployee')
+data.setCell(51, 3, 19988);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testAddUserInvalidData')
+data.setCell(52, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(52, 3, 19789);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testFilterSupervisor')
+data.setCell(53, 2, 'sprint0.EmployeeHomeFilter')
+data.setCell(53, 3, 19778);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testSearchName')
+data.setCell(54, 2, 'sprint0.DeactivateEmployee')
+data.setCell(54, 3, 19719);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testAddUserInvalidData')
+data.setCell(55, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(55, 3, 19369);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testRestoreEmployee')
+data.setCell(56, 2, 'sprint0.DeactivateEmployee')
+data.setCell(56, 3, 19366);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testAddUserInvalidData')
+data.setCell(57, 2, 'sprint0.EmployessAddEmployee')
+data.setCell(57, 3, 19046);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testSearchName')
+data.setCell(58, 2, 'sprint0.DeactivateEmployee')
+data.setCell(58, 3, 18888);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testTerminateEmployeeDelete')
+data.setCell(59, 2, 'sprint0.TerminatedEmployeeData')
+data.setCell(59, 3, 17427);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testTerminateEmployee')
+data.setCell(60, 2, 'sprint0.DeactivatedEmployeeFilter')
+data.setCell(60, 3, 17255);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testUserLogin_valid')
+data.setCell(61, 2, 'sprint0.UserLogin')
+data.setCell(61, 3, 11229);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testUserLogin_inValid')
+data.setCell(62, 2, 'sprint0.UserLogin')
+data.setCell(62, 3, 2270);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testUserLogin_inValid')
+data.setCell(63, 2, 'sprint0.UserLogin')
+data.setCell(63, 3, 1999);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testUserLogin_inValid')
+data.setCell(64, 2, 'sprint0.UserLogin')
+data.setCell(64, 3, 1657);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testUserLogin_inValid')
+data.setCell(65, 2, 'sprint0.UserLogin')
+data.setCell(65, 3, 1089);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testUserLogin_inValid')
+data.setCell(66, 2, 'sprint0.UserLogin')
+data.setCell(66, 3, 885);
+window.suiteTableData['example_suite_1']= { tableData: data, tableDiv: 'times-div-example_suite_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 minutes</span>
+              <div id="times-div-example_suite_1">
+              </div> <!-- times-div-example_suite_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.TerminatedEmployeeData</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.UserLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.UserLogin.testUserLogin_valid(), hidden)</span>
+                <span class="method-start">701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin_valid</span>
+                <span class="method-start">7729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testUserLogin_valid status=SUCCESS method=UserLogin.testUserLogin_valid()[pri:1, in...)</span>
+                <span class="method-start">18968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.UserLogin.testUserLogin_inValid(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">20569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin_inValid(admin, , 0)</span>
+                <span class="method-start">25765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testUserLogin_inValid status=SUCCESS method=UserLogin.testUserLogin_inValid(java.la...)</span>
+                <span class="method-start">26856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.UserLogin.testUserLogin_inValid(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">26929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin_inValid(, admin, 0)</span>
+                <span class="method-start">31513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testUserLogin_inValid status=SUCCESS method=UserLogin.testUserLogin_inValid(java.la...)</span>
+                <span class="method-start">32400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.UserLogin.testUserLogin_inValid(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">32478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin_inValid(1234344444556660, 435365464576577657657, 1)</span>
+                <span class="method-start">37974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testUserLogin_inValid status=SUCCESS method=UserLogin.testUserLogin_inValid(java.la...)</span>
+                <span class="method-start">39633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.UserLogin.testUserLogin_inValid(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">39707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin_inValid(dsfsafgsagfdsfgsdkfgdsksjggfdsgdgfdgfdfngfhgfhfhgfhgfhjghjgfhjgfjhgjgfjhgjhgjhgdtrytrytrvcgfhfg, fdl...)</span>
+                <span class="method-start">45342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testUserLogin_inValid status=SUCCESS method=UserLogin.testUserLogin_inValid(java.la...)</span>
+                <span class="method-start">47613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.UserLogin.testUserLogin_inValid(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">47691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin_inValid(^&$*(%&^)(*^(*&)(^&, *%*(&^(^(*^(*^(*^(*^, 1)</span>
+                <span class="method-start">54168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testUserLogin_inValid status=SUCCESS method=UserLogin.testUserLogin_inValid(java.la...)</span>
+                <span class="method-start">56168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">56243 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.EmployessAddEmployee</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">57312 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserValid(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">57813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserValid(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)</span>
+                <span class="method-start">65084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserValid status=SUCCESS method=EmployessAddEmployee.testAddUserValid(java.l...)</span>
+                <span class="method-start">90727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserValid(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">90817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserValid(IND0001002, Kale, Kale, Indian, 19801013, Female, Divorced, Part Time Permanent, Product Manager, In...)</span>
+                <span class="method-start">97345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserValid status=SUCCESS method=EmployessAddEmployee.testAddUserValid(java.l...)</span>
+                <span class="method-start">123801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserValid(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">123889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserValid(IND0001003, Zucchinni, Zucchinni, Indian, 19801014, Female, Divorced, Part Time Permanent, Product M...)</span>
+                <span class="method-start">130244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserValid status=SUCCESS method=EmployessAddEmployee.testAddUserValid(java.l...)</span>
+                <span class="method-start">152914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserValid(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">152995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserValid(IND0001004, Oliver, Olives, Indian, 19801015, Male, Divorced, Part Time Permanent, Product Manager, ...)</span>
+                <span class="method-start">159763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserValid status=SUCCESS method=EmployessAddEmployee.testAddUserValid(java.l...)</span>
+                <span class="method-start">183162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserValid(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">183237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserValid(IND0001005, Bruce, Willis, Indian, 19801016, Male, Divorced, Part Time Permanent, Product Manager, I...)</span>
+                <span class="method-start">190317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserValid status=SUCCESS method=EmployessAddEmployee.testAddUserValid(java.l...)</span>
+                <span class="method-start">214124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserValid(java.lang.String,java.lang.String,java.lan...)</span>
+                <span class="method-start">214205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserValid(IND0001006, London, Martin, Indian, 19801017, Male, Divorced, Part Time Permanent, Product Manager, ...)</span>
+                <span class="method-start">220460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserValid status=SUCCESS method=EmployessAddEmployee.testAddUserValid(java.l...)</span>
+                <span class="method-start">247669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserDuplicate(java.lang.String,java.lang.String,java...)</span>
+                <span class="method-start">248121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserDuplicate(IND0001001, James, Martin, Indian, 19801012, Male, Divorced, Part Time Permanent, Product Manager, I...)</span>
+                <span class="method-start">254346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserDuplicate status=SUCCESS method=EmployessAddEmployee.testAddUserDuplicat...)</span>
+                <span class="method-start">279862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">280234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(IND0001002, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Offi...)</span>
+                <span class="method-start">288329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">313163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">313240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, JANE, , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , ...)</span>
+                <span class="method-start">318177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">338527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">338603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , AUSTINE, Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office,...)</span>
+                <span class="method-start">343736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">364603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">364677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</span>
+                <span class="method-start">369492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">390228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">390304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, 19801021, Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office...)</span>
+                <span class="method-start">396079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">419771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">419843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</span>
+                <span class="method-start">427349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">448223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">448300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</span>
+                <span class="method-start">453199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">472990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">473071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</span>
+                <span class="method-start">477895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">496942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">497017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</span>
+                <span class="method-start">502523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">521893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">521965 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</span>
+                <span class="method-start">526880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">546945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">547019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, 20101226, Head Office...)</span>
+                <span class="method-start">553508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">576991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">577063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, , , Se...)</span>
+                <span class="method-start">584052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">606740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployessAddEmployee.testAddUserInvalidData(java.lang.String,java.lang.String,ja...)</span>
+                <span class="method-start">606812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUserInvalidData(, , , Indian, , Female, Divorced, Part Time Permanent, Product Manager, India, , Head Office, IceHrm...)</span>
+                <span class="method-start">612232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testAddUserInvalidData status=SUCCESS method=EmployessAddEmployee.testAddUserInvali...)</span>
+                <span class="method-start">635428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">635506 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.EmployeeLoginAs</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">637585 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeLoginAs.testLoginAsValid(java.lang.String), hidden)</span>
+                <span class="method-start">637818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAsValid(James)</span>
+                <span class="method-start">643398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testLoginAsValid status=SUCCESS method=EmployeeLoginAs.testLoginAsValid(java.lang.S...)</span>
+                <span class="method-start">672171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">672248 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.EmployeeHomeFilter</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">673542 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeHomeFilter.testFilterJobTitle(java.lang.String), hidden)</span>
+                <span class="method-start">673797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFilterJobTitle(Product Manager)</span>
+                <span class="method-start">678788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testFilterJobTitle status=SUCCESS method=EmployeeHomeFilter.testFilterJobTitle(java...)</span>
+                <span class="method-start">700059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeHomeFilter.testFilterDepartment(java.lang.String), hidden)</span>
+                <span class="method-start">700268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFilterDepartment(Head Office)</span>
+                <span class="method-start">705217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testFilterDepartment status=SUCCESS method=EmployeeHomeFilter.testFilterDepartment(...)</span>
+                <span class="method-start">727557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeHomeFilter.testFilterSupervisor(java.lang.String), hidden)</span>
+                <span class="method-start">727761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFilterSupervisor(IceHrm Employee)</span>
+                <span class="method-start">733738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testFilterSupervisor status=SUCCESS method=EmployeeHomeFilter.testFilterSupervisor(...)</span>
+                <span class="method-start">753517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">753595 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.EmployeeSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">754739 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeSearch.testSearchName(java.lang.String), hidden)</span>
+                <span class="method-start">754880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchName(James)</span>
+                <span class="method-start">760714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testSearchName status=SUCCESS method=EmployeeSearch.testSearchName(java.lang.String...)</span>
+                <span class="method-start">781954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeSearch.testSearchLastname(java.lang.String), hidden)</span>
+                <span class="method-start">782129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchLastname(Martin)</span>
+                <span class="method-start">789364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testSearchLastname status=SUCCESS method=EmployeeSearch.testSearchLastname(java.lan...)</span>
+                <span class="method-start">812174 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeSearch.testSearchInvalid(java.lang.String), hidden)</span>
+                <span class="method-start">812368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchInvalid(xx)</span>
+                <span class="method-start">818085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testSearchInvalid status=SUCCESS method=EmployeeSearch.testSearchInvalid(java.lang....)</span>
+                <span class="method-start">839210 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">839289 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.EmployeeSearchEdit</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">840925 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeSearchEdit.testEditEmployeeNote(java.lang.String,java.lang.String) throw...)</span>
+                <span class="method-start">841087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEditEmployeeNote(James, Test Note)</span>
+                <span class="method-start">846445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testEditEmployeeNote status=SUCCESS method=EmployeeSearchEdit.testEditEmployeeNote(...)</span>
+                <span class="method-start">888287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">888373 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.EmployeeView</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">890116 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeView.testEmployeeView(java.lang.String), hidden)</span>
+                <span class="method-start">890243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmployeeView(James)</span>
+                <span class="method-start">895406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testEmployeeView status=SUCCESS method=EmployeeView.testEmployeeView(java.lang.Stri...)</span>
+                <span class="method-start">917272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeView.testProfileImageUpload(java.lang.String) throws java.lang.Interrupt...)</span>
+                <span class="method-start">917427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProfileImageUpload(James)</span>
+                <span class="method-start">922955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testProfileImageUpload status=SUCCESS method=EmployeeView.testProfileImageUpload(ja...)</span>
+                <span class="method-start">957398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">957473 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.EmployeeTerminateEmployee</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">958849 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.EmployeeTerminateEmployee.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">959122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployee(James)</span>
+                <span class="method-start">964326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=FAILURE method=EmployeeTerminateEmployee.testTerminate...)</span>
+                <span class="method-start">992561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">992975 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.DeactivateEmployee</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">994280 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testDeactivateEmployee(java.lang.String,java.lang.String), hi...)</span>
+                <span class="method-start">994411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeactivateEmployee(Kale, Stuart)</span>
+                <span class="method-start">999374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testDeactivateEmplo...)</span>
+                <span class="method-start">1024531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testDeactivateEmployee(java.lang.String,java.lang.String), hi...)</span>
+                <span class="method-start">1024602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeactivateEmployee(Zucchinni, 19701010)</span>
+                <span class="method-start">1030556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testDeactivateEmplo...)</span>
+                <span class="method-start">1055153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testDeactivateEmployee(java.lang.String,java.lang.String), hi...)</span>
+                <span class="method-start">1055228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeactivateEmployee(Oliver, Widowed)</span>
+                <span class="method-start">1060018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testDeactivateEmplo...)</span>
+                <span class="method-start">1080750 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testDeactivateEmployee(java.lang.String,java.lang.String), hi...)</span>
+                <span class="method-start">1080823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeactivateEmployee(Bruce, Part Time Internship)</span>
+                <span class="method-start">1086183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testDeactivateEmplo...)</span>
+                <span class="method-start">1107744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testEditDeactivateEmployee(java.lang.String,java.lang.String)...)</span>
+                <span class="method-start">1107895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEditDeactivateEmployee(Kale, Stuart)</span>
+                <span class="method-start">1112503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testEditDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testEditDeactiv...)</span>
+                <span class="method-start">1134276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testEditDeactivateEmployee(java.lang.String,java.lang.String)...)</span>
+                <span class="method-start">1134354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEditDeactivateEmployee(Zucchinni, 19701010)</span>
+                <span class="method-start">1142324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testEditDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testEditDeactiv...)</span>
+                <span class="method-start">1169245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testEditDeactivateEmployee(java.lang.String,java.lang.String)...)</span>
+                <span class="method-start">1169330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEditDeactivateEmployee(Oliver, Widowed)</span>
+                <span class="method-start">1174135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testEditDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testEditDeactiv...)</span>
+                <span class="method-start">1197152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testEditDeactivateEmployee(java.lang.String,java.lang.String)...)</span>
+                <span class="method-start">1197223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEditDeactivateEmployee(Bruce, Part Time Internship)</span>
+                <span class="method-start">1202418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testEditDeactivateEmployee status=SUCCESS method=DeactivateEmployee.testEditDeactiv...)</span>
+                <span class="method-start">1226288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testSearchName(java.lang.String,java.lang.String), hidden)</span>
+                <span class="method-start">1226448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchName(Kale, Stuart)</span>
+                <span class="method-start">1231435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testSearchName status=SUCCESS method=DeactivateEmployee.testSearchName(java.lang.St...)</span>
+                <span class="method-start">1250324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testSearchName(java.lang.String,java.lang.String), hidden)</span>
+                <span class="method-start">1250395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchName(Zucchinni, 19701010)</span>
+                <span class="method-start">1258100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testSearchName status=SUCCESS method=DeactivateEmployee.testSearchName(java.lang.St...)</span>
+                <span class="method-start">1277820 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testSearchName(java.lang.String,java.lang.String), hidden)</span>
+                <span class="method-start">1277892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchName(Oliver, Widowed)</span>
+                <span class="method-start">1283693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testSearchName status=SUCCESS method=DeactivateEmployee.testSearchName(java.lang.St...)</span>
+                <span class="method-start">1304096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testSearchName(java.lang.String,java.lang.String), hidden)</span>
+                <span class="method-start">1304170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchName(Bruce, Part Time Internship)</span>
+                <span class="method-start">1309006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testSearchName status=SUCCESS method=DeactivateEmployee.testSearchName(java.lang.St...)</span>
+                <span class="method-start">1330965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testRestoreEmployee(java.lang.String,java.lang.String), hidde...)</span>
+                <span class="method-start">1331099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRestoreEmployee(Kale, Stuart)</span>
+                <span class="method-start">1336390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testRestoreEmployee status=SUCCESS method=DeactivateEmployee.testRestoreEmployee(ja...)</span>
+                <span class="method-start">1357926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testRestoreEmployee(java.lang.String,java.lang.String), hidde...)</span>
+                <span class="method-start">1358002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRestoreEmployee(Zucchinni, 19701010)</span>
+                <span class="method-start">1362599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testRestoreEmployee status=SUCCESS method=DeactivateEmployee.testRestoreEmployee(ja...)</span>
+                <span class="method-start">1382588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testRestoreEmployee(java.lang.String,java.lang.String), hidde...)</span>
+                <span class="method-start">1382662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRestoreEmployee(Oliver, Widowed)</span>
+                <span class="method-start">1388162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testRestoreEmployee status=SUCCESS method=DeactivateEmployee.testRestoreEmployee(ja...)</span>
+                <span class="method-start">1407529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivateEmployee.testRestoreEmployee(java.lang.String,java.lang.String), hidde...)</span>
+                <span class="method-start">1407605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRestoreEmployee(Bruce, Part Time Internship)</span>
+                <span class="method-start">1412660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testRestoreEmployee status=SUCCESS method=DeactivateEmployee.testRestoreEmployee(ja...)</span>
+                <span class="method-start">1433397 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1433475 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.DeactivatedEmployeeFilter</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1435647 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivatedEmployeeFilter.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">1435739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTerminateEmployee(Product Manager)</span>
+                <span class="method-start">1440327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=SUCCESS method=DeactivatedEmployeeFilter.testTerminate...)</span>
+                <span class="method-start">1457583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1457657 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.DeactivatedEmployeeArchive</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1459627 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">1459714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployee(James)</span>
+                <span class="method-start">1464497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=FAILURE method=DeactivatedEmployeeArchive.testTerminat...)</span>
+                <span class="method-start">1487224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">1487610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployee(Kale)</span>
+                <span class="method-start">1492705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=FAILURE method=DeactivatedEmployeeArchive.testTerminat...)</span>
+                <span class="method-start">1516035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">1516462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployee(Zucchinni)</span>
+                <span class="method-start">1520674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=FAILURE method=DeactivatedEmployeeArchive.testTerminat...)</span>
+                <span class="method-start">1542588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">1543024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployee(Oliver)</span>
+                <span class="method-start">1547826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=FAILURE method=DeactivatedEmployeeArchive.testTerminat...)</span>
+                <span class="method-start">1573496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">1573881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployee(Bruce)</span>
+                <span class="method-start">1578032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=FAILURE method=DeactivatedEmployeeArchive.testTerminat...)</span>
+                <span class="method-start">1604748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.DeactivatedEmployeeArchive.testTerminateEmployee(java.lang.String), hidden)</span>
+                <span class="method-start">1605166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployee(London)</span>
+                <span class="method-start">1610879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployee status=FAILURE method=DeactivatedEmployeeArchive.testTerminat...)</span>
+                <span class="method-start">1635412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1635791 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.TerminatedEmployeeDownloadData</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1637933 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.TerminatedEmployeeDownloadData.testTerminateEmployeeDataDownLoad(java.lang.Strin...)</span>
+                <span class="method-start">1638000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployeeDataDownLoad(Jake, employee_42_Jake_Bruce.txt)</span>
+                <span class="method-start">1642693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployeeDataDownLoad status=FAILURE method=TerminatedEmployeeDownloadD...)</span>
+                <span class="method-start">1665538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1665924 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint0.TerminatedEmployeeData</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1667913 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(java.lang.String), hidden)</span>
+                <span class="method-start">1667998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployeeDelete(James)</span>
+                <span class="method-start">1672712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployeeDelete status=FAILURE method=TerminatedEmployeeData.testTermin...)</span>
+                <span class="method-start">1692749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(java.lang.String), hidden)</span>
+                <span class="method-start">1693129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTerminateEmployeeDelete(Kale)</span>
+                <span class="method-start">1697430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployeeDelete status=SUCCESS method=TerminatedEmployeeData.testTermin...)</span>
+                <span class="method-start">1719690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(java.lang.String), hidden)</span>
+                <span class="method-start">1719761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTerminateEmployeeDelete(Zucchinni)</span>
+                <span class="method-start">1725885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployeeDelete status=SUCCESS method=TerminatedEmployeeData.testTermin...)</span>
+                <span class="method-start">1748798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(java.lang.String), hidden)</span>
+                <span class="method-start">1748881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTerminateEmployeeDelete(Oliver)</span>
+                <span class="method-start">1753761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployeeDelete status=SUCCESS method=TerminatedEmployeeData.testTermin...)</span>
+                <span class="method-start">1776106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(java.lang.String), hidden)</span>
+                <span class="method-start">1776181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTerminateEmployeeDelete(Bruce)</span>
+                <span class="method-start">1780872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployeeDelete status=FAILURE method=TerminatedEmployeeData.testTermin...)</span>
+                <span class="method-start">1798313 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint0.TerminatedEmployeeData.testTerminateEmployeeDelete(java.lang.String), hidden)</span>
+                <span class="method-start">1798746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTerminateEmployeeDelete(London)</span>
+                <span class="method-start">1803699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=testTerminateEmployeeDelete status=SUCCESS method=TerminatedEmployeeData.testTermin...)</span>
+                <span class="method-start">1823963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1824038 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">1826566 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
